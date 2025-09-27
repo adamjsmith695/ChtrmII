@@ -61,7 +61,7 @@ def setUsername(newUser):
 
 
 def getUsername(username):
-    #returns, if existant, the index val of the given username, otherwise
+    #returns, if existent, the index val of the given username, otherwise
     #returns -1
     
     db = open("_db__.txt","r",encoding="utf8")      
@@ -391,4 +391,5 @@ Main()
 #   be a public file that is put onto the shared area in a specific place. Each computer, whilst running the program, will
 #   copy each message as they come onto the shared area file into a local text file. This allows for a build up of messages to
 #   be printed, and localises the system as different computers will be in different states/positions.
+
 
